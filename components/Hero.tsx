@@ -15,7 +15,7 @@ export const Hero: React.FC<HeroProps> = ({ name, title, about, onShowResume }) 
         <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto mb-8">
           <div className="absolute inset-0 bg-gradient-to-br from-cyan-500 to-purple-600 rounded-full blur-2xl opacity-30 animate-pulse"></div>
           <img 
-            src="public/images/bontle.jpg"
+            src="/images/bontle.jpg"
             alt={name}
             className="relative w-full h-full object-cover rounded-full shadow-2xl shadow-cyan-500/20" 
           />
