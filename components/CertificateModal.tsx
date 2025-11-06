@@ -53,8 +53,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ isOpen, onCl
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-transparent text-gray-300 border border-gray-600 font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 hover:text-white transition-all duration-300 text-sm"
             >
-              <ExternalLinkIcon className="w-4 h-4" />
-              Verify
+              
             </a>
           )}
           <a
